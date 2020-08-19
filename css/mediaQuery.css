@@ -1,0 +1,371 @@
+      /* for x-small screens*/
+      @media (max-width : 767px)
+      {
+      }
+      /* for x-small screens*/
+
+      /* for small screens*/
+      @media (min-width: 768px)and (max-width: 991px)
+      {
+      }
+      /* for small screens*/
+
+      /* for medium screens*/
+      @media (min-width: 992px)and (max-width: 1199px)
+      {
+      }
+      /* for medium screens*/
+
+      /* for large screens*/
+      @media (min-width: 1200px)
+      {
+      }
+      /* for large screens*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium screens */
+@media (min-width: 768px)and (max-width: 1199px)
+{
+    /* header */
+    .header
+    {
+        min-height: 1000px;
+
+        text-align: center;
+    }
+    /* the line*/
+    .header h1 ~ .lead:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 2px;
+        margin: 20px auto;
+
+        content: '';
+
+        background-color: #fff;
+    }
+    /* the line*/
+    .header form
+    {
+        margin-top: 50px;
+    }
+    /* header */
+    /* social */
+    .social
+    {
+        text-align: center;
+        padding: 50px 0;
+    }
+    /* social */
+
+
+    /* .section-tabs */
+    .section-tabs
+    {
+        text-align: center;
+    }
+    .section-tabs .content .tabs-content h3
+    {
+        margin-top: 20px;
+    }
+    .section-tabs .content .tabs-content button
+    {
+        margin-bottom: 30px;
+    }
+    /* .section-tabs */
+
+    /* section-sublist */
+    .section-sublist
+    {
+        padding: 20px;
+
+        text-align: center;
+    }
+    .section-sublist img
+    {
+        max-width: 400px;
+        margin-left: 10px;
+    }
+    /* the line*/
+    .section-sublist .second h3:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 2px;
+        margin: 25px auto;
+
+        content: '';
+
+        background-color: #ff8b38;
+    }
+    /* the line*/
+    .section-sublist .second .last .option i
+    {
+        height: 10px;
+
+        text-align: center;
+    }
+    .section-sublist .second .last .option div
+    {
+        margin-bottom: 10px;
+        padding: 0 ;
+    }
+    /* section-sublist */
+
+    /* section-Standard */
+    .section-Standard
+    {
+        padding: 50px 0;
+
+        text-align: center;
+    }
+    .section-Standard .first h3:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 3px;
+        margin: 25px auto;
+
+        content: '';
+
+        background-color: #ff8b38;
+    }
+    .section-Standard .second img
+    {
+        max-width: 400px;
+        margin-left: -25px;
+
+        text-align: center;
+    }
+    /* section-Standard */
+    /* section-price */
+    .section-price .price-box
+    {
+        width: 400px;
+        margin: auto;
+    }
+    .section-price .row .basic,
+    .section-price .row .enterprise
+    {
+        margin-top: 0;
+    }
+    .section-price .wow
+    {
+        margin-top: 50px;
+    }
+    /* section-price */
+
+    /* .section-Testimonials */
+
+    .section-Testimonials .media
+    {
+        margin-bottom: 50px;
+    }
+
+    /* .section-Testimonials */
+    /* section-stylish */
+    .section-stylish .overlay
+    {
+        padding: 15px;
+    }
+    /* section-stylish */
+
+    /* section-contact */
+    .section-contact form
+    {
+        margin: auto;
+    }
+    .section-contact form input,
+    .section-contact form textarea
+    {
+        max-width: 500px;
+        margin: 30px auto;
+    }
+
+    /* section-contact */
+}
+/* medium screens */
+
+
+
+
+
+
+
+
+
+/*small screens : mobile*/
+@media (max-width : 767px)
+{
+    /* header */
+    .header
+    {
+        min-height: 1000px;
+
+        text-align: center;
+    }
+    /* the line*/
+    .header h1 ~ .lead:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 2px;
+        margin: 20px auto;
+
+        content: '';
+
+        background-color: #fff;
+    }
+    /* the line*/
+    .header form
+    {
+        margin-top: 50px;
+    }
+    /* header */
+    /* social */
+    .social
+    {
+        text-align: center;
+    }
+    /* social */
+
+
+    /* .section-tabs */
+    .section-tabs
+    {
+        text-align: center;
+    }
+    .section-tabs .content .tabs-content h3
+    {
+        margin-top: 20px;
+    }
+    .section-tabs .content .tabs-content button
+    {
+        margin-bottom: 30px;
+    }
+    /* .section-tabs */
+
+    /* section-sublist */
+    .section-sublist
+    {
+        padding: 20px;
+
+        text-align: center;
+    }
+    .section-sublist img
+    {
+        max-width: 400px;
+        margin-left: 10px;
+    }
+    /* the line*/
+    .section-sublist .second h3:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 2px;
+        margin: 25px auto;
+
+        content: '';
+
+        background-color: #ff8b38;
+    }
+    /* the line*/
+    .section-sublist .second .last .option i
+    {
+        height: 10px;
+
+        text-align: center;
+    }
+    .section-sublist .second .last .option div
+    {
+        margin-bottom: 10px;
+        padding: 0 ;
+    }
+    /* section-sublist */
+
+    /* section-Standard */
+    .section-Standard
+    {
+        padding: 50px;
+
+        text-align: center;
+    }
+    .section-Standard .first h3:after
+    {
+        display: block;
+
+        width: 70px;
+        height: 3px;
+        margin: 25px auto;
+
+        content: '';
+
+        background-color: #ff8b38;
+    }
+    .section-Standard .second img
+    {
+        max-width: 400px;
+        margin-left: -25px;
+
+        text-align: center;
+    }
+    /* section-Standard */
+    /* section-price */
+    .section-price .price-box
+    {
+        width: 400px;
+        margin: auto;
+    }
+    .section-price .row .basic,
+    .section-price .row .enterprise
+    {
+        margin-top: 0;
+    }
+    .section-price .wow
+    {
+        margin-top: 50px;
+    }
+    /* section-price */
+
+    /* .section-Testimonials */
+
+    .section-Testimonials .media
+    {
+        margin-bottom: 50px;
+    }
+
+    /* .section-Testimonials */
+
+    /* section-contact */
+    .section-contact form
+    {
+        margin: auto;
+    }
+    .section-contact form input,
+    .section-contact form textarea
+    {
+        max-width: 350px;
+    }
+    .section-contact form textarea
+    {
+        margin-left: 12px;
+    }
+    /* section-contact */
+}
+/*small screens : mobile*/
