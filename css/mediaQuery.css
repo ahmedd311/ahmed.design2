@@ -232,6 +232,9 @@
         background-color: #fff;
     }
     /* the line*/
+    .header .second{
+      padding-left: 0;
+    }
     .header form
     {
         margin-top: 50px;
