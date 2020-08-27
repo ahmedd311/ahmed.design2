@@ -233,7 +233,7 @@
     }
     /* the line*/
     .header .second{
-      padding-left: 0;
+      padding: 0;
     }
     .header form
     {
@@ -328,11 +328,15 @@
 
         background-color: #ff8b38;
     }
-
+    .section-Standard .second{
+      padding: 0px;
+    }
     .section-Standard .second img
     {
         max-width: 300px;
         text-align: center;
+        margin: auto;
+
     }
     /* section-Standard */
     /* section-price */
@@ -341,7 +345,9 @@
         width: 320px;
         margin: auto;
         text-align: center;
-
+    }
+    .section-price .special {
+    box-shadow: 0px -15px 10px #ff8b38;
     }
     .section-price .row .basic,
     .section-price .row .enterprise
